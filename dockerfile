@@ -3,7 +3,8 @@ FROM openjdk:17-oracle
 
 # https://medium.com/@skywalkerhunter/aws-docker-deploy-spring-boot-fe05a00191d9
 # added on 31st Oct
-LABEL maintainer="Darryl Ng <darryl1975@hotmail.com>"
+# LABEL maintainer="Darryl Ng <darryl1975@hotmail.com>"
+LABEL maintainer="Qhoebe <phoebecqm@gmail.com>"
 LABEL description="Dockerfile for deploying to Beanstalk needs dockerrun.aws.json"
 
 # added on 31st Oct
